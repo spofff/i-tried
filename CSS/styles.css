@@ -1,0 +1,128 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	background-color: #efefef;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+p {
+	text-align: justify;
+}
+
+.head {
+	font-family: 'Teko', sans-serif;
+	font-size: 3.5em;
+	text-decoration: underline;
+	text-align: right;
+}
+
+.sub-head {
+	font-family: 'Teko', sans-serif;
+	font-size: 2.8em;
+	font-style: italic;
+}
+
+.section {
+	border: 2px solid black;
+	padding: 2em 2.5em;
+	border-radius: 0.8em;
+}
+
+.section:not(:last-child) {
+	margin-bottom: 2em;
+}
+
+#navbar {
+	/* background-color: blueviolet; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.6em 2em;
+	position: sticky;
+	top: 0;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+#banner {
+	font-family: 'Teko', sans-serif;
+	font-size: 1.8em;
+}
+
+#hero_container {
+	/* background-color: aqua; */
+	height: 20em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	background-position: center;
+	background-image: url("https://free4kwallpapers.com/uploads/originals/2020/04/22/nordic-snowstorm.-wallpaper_.png");
+}
+
+#hero_heading {
+	font-family: 'Teko', sans-serif;
+	font-size: 5em;
+}
+
+#navigation {
+	/* background-color: red; */
+	display: flex;
+	justify-content: center;
+	column-gap: 1.5em;
+	margin: 1em 0em;
+}
+
+.navigation-link {
+	/* background-color: green; */
+	font-family: 'Teko', sans-serif;
+	font-size: 1.3em;
+	color: black;
+	text-decoration: none;
+}
+
+#content {
+	/* background-color: aquamarine;	 */
+	padding: 0em 2em;
+}
+
+.exhibit {
+	display: flex;
+	align-items: center;
+}
+
+.exhibit img {
+	width: 375px;
+	margin: 0.8em;
+	border-radius: 1.2em;
+	/* box-shadow: 0.5em 0.5em 2em ; */
+}
+
+.film {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2em;
+}
+
+.film p {
+	text-align: center;
+}
+
+.icons {
+	display: flex;
+	padding: 2em;
+	align-items: center;
+}
+
+.icons p,a {
+	padding: 0em 2em;
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+
